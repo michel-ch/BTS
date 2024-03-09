@@ -1,0 +1,149 @@
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:focus, a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  font-size:80%;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type=submit]
+{
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 80%;
+}
+
+input[type=date]
+{
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  outline: none;
+  height: 60px;
+  line-height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 80%;
+
+}

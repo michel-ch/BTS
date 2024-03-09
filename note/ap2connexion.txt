@@ -1,0 +1,5 @@
+adresse hote : db5011835429.hosting-data.io
+mdp : #bddap2michelchen
+nom utilisateur : dbu4030421
+nom bdd : dbs9968297
+port : 3306

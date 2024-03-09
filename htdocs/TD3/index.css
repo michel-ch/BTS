@@ -1,0 +1,37 @@
+body {
+ background-image: url("images/background.jpg");
+ background-color: #FF0000;
+}
+
+html {
+text-align: center;
+font-family:"times new roman", Times, serif;
+font-size:10px;
+color:blue;
+}
+img {
+width : 600px;
+height : 400px;
+}
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:white;
+ width:20%;
+background:white;
+ }
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:red;
+text-align: center;
+ width:20%;
+ }
+form {
+ border-width:2px; 
+ border-style:solid; 
+ border-color:red;
+ width:30%;
+background:white;
+ }
+
